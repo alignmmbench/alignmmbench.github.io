@@ -1,1 +1,626 @@
-coming soon......
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+<script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AlignMMBench</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                Yuhang Wu<sup>*1</sup>,</span>
+                <span class="author-block">
+                  Wenmeng Yu<sup>*2</sup>,</span>
+                  <span class="author-block">
+                    Yean Cheng<sup>3</sup>,
+                  </span>
+                  <span class="author-block">
+                    Yan Wang<sup>2</sup>,
+                  </span>
+                  </div>
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      Xiaohan Zhang<sup>2</sup>,
+                    </span>
+                    <span class="author-block">
+                      Jiazheng Xu<sup>1</sup>,
+                    </span>
+                    <span class="author-block">
+                      Ming Ding<sup>2</sup>,
+                    </span>
+                    <span class="author-block">
+                      Yuxiao Dong<sup>1</sup>
+                    </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"> 
+                      <sup>1</sup>Tsinghua University,
+                      <sup>2</sup>Zhipu AI,
+                      <sup>3</sup>Peking University,
+                      
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span> -->
+
+
+              
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2406.09295" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/wuyuhang05/AlignMMBench" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+               <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/datasets/THUDM/AlignMMBench" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <p>📊</p>
+                        <!-- <i class="fas fa-images"></i> -->
+                      </span>
+                      <span>Dataset</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="#leaderboard" 
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <p>🏆</p>
+                      <!-- <i class="fas fa-images"></i> -->
+                    </span>
+                    <span>Leaderboard</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Evaluating the alignment capabilities of large Vision-Language Models (VLMs) is essential for determining their effectiveness as helpful assistants. However, existing benchmarks primarily focus on basic abilities using nonverbal methods, such as yes-no and multiple-choice questions. In this paper, we address this gap by introducing <b>AlignMMBench</b>, a comprehensive alignment benchmark specifically designed for emerging Chinese VLMs. This benchmark is meticulously curated from real-world scenarios and Chinese Internet sources, encompassing thirteen specific tasks across three categories, and includes both single-turn and multi-turn dialogue scenarios. Incorporating a prompt rewrite strategy, AlignMMBench encompasses 1,054 images and 4,978 question-answer pairs. To facilitate the evaluation pipeline, we propose <b>CritiqueVLM</b>, a rule-calibrated evaluator that exceeds GPT-4's evaluation ability. Finally, we report the performance of representative VLMs on AlignMMBench, offering insights into the capabilities and limitations of different VLM architectures. All evaluation codes and data are available on <a href="https://alignmmbench.github.io/">https://alignmmbench.github.io/</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<!-- Leaderboard-->
+<section class="section" id="leaderboard">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Leaderboard</h2>
+        <div class="content">
+          Evaluation results on AlignMMBench.
+          <div class="mdui-table-fluid">
+            <table class="mdui-table mdui-table-hoverable"><thead>
+              <tr>
+                <th rowspan="2">Models</th>
+                <th rowspan="2">Avg</th>
+                <th colspan="6">Perception &amp; Understanding.</th>
+                <th colspan="5">Reasoning &amp; Analysis</th>
+                <th colspan="2">Context</th>
+              </tr>
+              <tr>
+                <th>Des.</th>
+                <th>Rec.</th>
+                <th>Cou.</th>
+                <th>OCR.</th>
+                <th>Mem.</th>
+                <th>Kno.</th>
+                <th>Rea.</th>
+                <th>Cha.</th>
+                <th>Pro.</th>
+                <th>Com.</th>
+                <th>Wri.</th>
+                <th>Coh.</th>
+                <th>Inc.</th>
+              </tr></thead>
+            <tbody>
+              <tr>
+                <td>GPT-4o</td>
+                <td><b>6.57</b</td>
+                <td><b>7.69</b></td>
+                <td><b>6.56</b></td>
+                <td><b>6.18</b></td>
+                <td><b>7.4</b></td>
+                <td><b>7.02</b></td>
+                <td><b>6.58</b></td>
+                <td><b>4.13</b></td>
+                <td><b>6.94</b></td>
+                <td><b>5.85</b></td>
+                <td><b>7.09</b></td>
+                <td><b>7.81</b></td>
+                <td><u>6.63</u></td>
+                <td><b>5.5</b></td>
+              </tr>
+              <tr>
+                <td>CogVLM2</td>
+                <td><u>5.86</u></td>
+                <td>7.19</td>
+                <td><u>6.11</u></td>
+                <td><u>5.81</u></td>
+                <td><u>7.03</u></td>
+                <td><u>5.83</u></td>
+                <td><u>5.82</u></td>
+                <td><u>3.57</u></td>
+                <td>5.79</td>
+                <td><u>4.44</u></td>
+                <td>5.65</td>
+                <td><u>7.38</u></td>
+                <td>6.38</td>
+                <td><u>5.22</u></td>
+              </tr>
+              <tr>
+                <td>InternVL-V1.5</td>
+                <td>5.73</td>
+                <td><u>7.21</u></td>
+                <td>6.04</td>
+                <td>5.52</td>
+                <td>6.64</td>
+                <td>4.96</td>
+                <td>5.06</td>
+                <td>3.34</td>
+                <td><u>6.02</u></td>
+                <td>4.22</td>
+                <td><u>6.41</u></td>
+                <td>7.28</td>
+                <td><b>6.70</b></td>
+                <td>5.07</td>
+              </tr>
+              <tr>
+                <td>MiniCPM-V2.5</td>
+                <td>5.43</td>
+                <td>7.15</td>
+                <td>5.32</td>
+                <td>5.38</td>
+                <td>6.24</td>
+                <td>4.55</td>
+                <td>5.32</td>
+                <td>3.27</td>
+                <td>4.78</td>
+                <td>3.66</td>
+                <td>6.06</td>
+                <td>7.34</td>
+                <td>6.38</td>
+                <td>5.11</td>
+              </tr>
+              <tr>
+                <td>Qwen-VL-Chat</td>
+                <td>5.13</td>
+                <td>6.43</td>
+                <td>5.86</td>
+                <td>5.43</td>
+                <td>4.77</td>
+                <td>5.22</td>
+                <td>5.65</td>
+                <td>2.90</td>
+                <td>4.15</td>
+                <td>3.03</td>
+                <td>5.52</td>
+                <td>7.24</td>
+                <td>6.04</td>
+                <td>4.46</td>
+              </tr>
+              <tr>
+                <td>XComposer2V</td>
+                <td>4.98</td>
+                <td>6.29</td>
+                <td>4.71</td>
+                <td>5.23</td>
+                <td>4.98</td>
+                <td>4.69</td>
+                <td>5.09</td>
+                <td>3.14</td>
+                <td>4.43</td>
+                <td>3.37</td>
+                <td>4.81</td>
+                <td>7.17</td>
+                <td>6.19</td>
+                <td>4.67</td>
+              </tr>
+              <tr>
+                <td>DeepSeek-VL</td>
+                <td>4.75</td>
+                <td>6.52</td>
+                <td>5.52</td>
+                <td>5.14</td>
+                <td>3.95</td>
+                <td>3.92</td>
+                <td>4.18</td>
+                <td>2.46</td>
+                <td>3.98</td>
+                <td>2.61</td>
+                <td>5.47</td>
+                <td>7.16</td>
+                <td>6.17</td>
+                <td>4.63</td>
+              </tr>
+              <tr>
+                <td>Monkey-Chat</td>
+                <td>4.71</td>
+                <td>6.06</td>
+                <td>4.88</td>
+                <td>5.53</td>
+                <td>4.78</td>
+                <td>4.11</td>
+                <td>4.95</td>
+                <td>3.03</td>
+                <td>3.94</td>
+                <td>2.58</td>
+                <td>4.88</td>
+                <td>6.35</td>
+                <td>6.17</td>
+                <td>3.94</td>
+              </tr>
+              <tr>
+                <td>Yi-VL</td>
+                <td>4.24</td>
+                <td>4.84</td>
+                <td>4.74</td>
+                <td>5.21</td>
+                <td>3.28</td>
+                <td>3.57</td>
+                <td>4.47</td>
+                <td>2.46</td>
+                <td>3.27</td>
+                <td>2.04</td>
+                <td>4.72</td>
+                <td>6.62</td>
+                <td>5.71</td>
+                <td>4.16</td>
+              </tr>
+              <tr>
+                <td>Phi-3-Vision</td>
+                <td>3.90</td>
+                <td>3.99</td>
+                <td>3.49</td>
+                <td>4.49</td>
+                <td>3.87</td>
+                <td>3.34</td>
+                <td>3.25</td>
+                <td>2.32</td>
+                <td>4.36</td>
+                <td>2.54</td>
+                <td>4.05</td>
+                <td>4.78</td>
+                <td>5.78</td>
+                <td>4.42</td>
+              </tr>
+            </tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Leaderboard -->
+
+
+<h2 class="title is-3 has-text-centered">Examples</h2>
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/example1.png" alt="MY ALT TEXT"/>
+      </div>
+      <div class="item">
+
+        <img src="static/images/example2.png" alt="MY ALT TEXT"/>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Dataset Composition</h2>
+        <div class="content">
+          <img src="static/images/piechartv3.jpg" alt="MY ALT TEXT"/>
+          <p class="has-text-left">Categories and examples of AlignMMBench. The chart on the left displays the categories
+            of AlignMMBench, encompassing <b>three</b> main categories and <b>thirteen</b> specific tasks. The numbers
+            below each category or task indicate the total number of images included. The right side of the pie
+            chart presents two examples, illustrating instances from the incoherence and coherence categories.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Image Examples</h2>
+        <div class="content">
+          <img src="static/images/example-image.png" alt="MY ALT TEXT"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Benchmark Comparison</h2>
+        <div class="content">
+          <img src="static/images/compare.png" alt="MY ALT TEXT"/>
+          <p class="has-text-left">Comparisons between AlignMMBench and other benchmarks. <b>Multi Category</b> represent whether the categories of questions in benchmark are greater than 2. <b>Dialogue Context</b> represent whether the benchmark contains multi-turn dialogue scenarios.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Evaluating CritiqueVLM</h2>
+        <div class="content">
+          <img src="static/images/results.png" alt="MY ALT TEXT"/>
+          <p class="has-text-left">Mean absolute error (e), Pearson (r), Spearman (ρ), Kendall (τ) correlations, Fuzzy division
+            scores (f) and Strict division scores (s) are calculated on the internal and external test sets. The best
+            performance among the methods is <b>bold</b>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <h2 class="title is-3 has-text-centered">Dataset Composition</h2>
+        <img src="static/images/piechartv3.jpg" alt="MY ALT TEXT"/>
+      </div>
+      <div class="item">
+        <h2 class="title is-3 has-text-centered">Overall framework</h2>
+        <img src="static/images/pipeline.jpg" alt="MY ALT TEXT"/>
+      </div>
+      <div class="item">
+        <h2 class="title is-3 has-text-centered">Evaluating CritiqueVLM</h2>
+        <img src="static/images/table1.png" alt="MY ALT TEXT"/>
+      </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{wu2024alignmmbench,
+        title={AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models}, 
+        author={Yuhang Wu and Wenmeng Yu and Yean Cheng and Yan Wang and Xiaohan Zhang and Jiazheng Xu and Ming Ding and Yuxiao Dong},
+        year={2024},
+        eprint={2406.09295},
+        archivePrefix={arXiv}
+  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
