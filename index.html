@@ -428,11 +428,30 @@
 </div>
 </section>
 
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overall Framework</h2>
+        <div class="content">
+          <img src="static/images/pipeline.jpg" alt="MY ALT TEXT"/>
+          <p class="has-text-left">
+            <b>AlignMMBench</b>: Images are collected from real-world
+requests and Chinese websites. Following manual taxonomy and LLM-based question expansion,
+annotators generate reference answers within task-specific rules. <b>CritiqueVLM</b>: Rule-based scoring
+criteria are carefully designed, and then we train the CritiqueVLM on human-annotated corpus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section hero is-white">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Dataset Composition</h2>
+        <h2 class="title is-3">Statistics</h2>
         <div class="content">
           <img src="static/images/index.png" alt="MY ALT TEXT"/>
           <p class="has-text-left">
@@ -483,7 +502,8 @@
           <img src="static/images/results.png" alt="MY ALT TEXT"/>
           <p class="has-text-left">Mean absolute error (e), Pearson (r), Spearman (ρ), Kendall (τ) correlations, Fuzzy division
             scores (f) and Strict division scores (s) are calculated on the internal and external test sets. The best
-            performance among the methods is <b>bold</b>.</p>
+            performance among the methods is <b>bold</b>. These results demonstrates
+            that CritiqueVLM achieves superior performance with only 6 billion parameters.</p>
         </div>
       </div>
     </div>
